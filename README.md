@@ -1,6 +1,6 @@
 # Actividad Cuaderno Clase UD1:
 ## ¿Qué es un lenguaje de marcas?
-* **Un lenguaje de marcas, es un conjunto de etiquetas de marcas, utilizadas para definir la estructura, y el diseño de un documento. Es decir, que las etiquetas de marcas, proporcionan información semántica, sobre los contenidos, en lugar de especificar su presentación o diseño. Por lo tanto, es un sistema de anotación de un documento, que se distingue sintácticamente del contenido del texto. Los lenguajes de marcas, permiten etiquetar los elementos del documento, para identificar elementos especiales como títulos, párrafos, listas, énfasis, etc. Las etiquetas proporcionan información semántica sobre la estructura y el significado del documento.**
+* **Un lenguaje de marcas, es un conjunto de etiquetas de marcas, utilizadas para definir la estructura, y el diseño de un documento. Es decir, que las etiquetas de marcas, proporcionan información semántica, sobre los contenidos, en lugar de especificar su presentación o diseño. Por lo tanto, es un sistema de anotación de un documento, que se distingue sintácticamente del contenido del texto. Los lenguajes de marcas, permiten etiquetar los elementos del documento, para así, identificar elementos especiales como títulos, párrafos, listas, énfasis, etc. Mientras que las etiquetas, proporcionan información semántica, sobre la estructura, y el significado del documento.**
 ## Evolución de los lenguajes de marcas:
 * **GML: Desarrollado originalmente en la década de 1960, para el direccionamiento e indexación de documentos del gobierno de U.S. El GML, fue uno de los primeros lenguajes de marcas estandarizados de uso general. Su objetivo principalmente, era ofrecer un sistema de intercambio de documentos estructurados independiente de las aplicaciones.**
 * **SGML: Desarrollado en los años 80, como metalenguaje estándar, para definir estructuras de documentos. El SGML, fue el primer lenguaje de marcas internacional normalizado, de uso general que constituyó, la base del tratamiento general de documentos. Permitiendo definir metalenguajes, para clases específicas de documentos. Esto quiere decir, que el SGML, se desarrolló en la década de 1980, como la primera norma ISO aceptada internacionalmente para definir lenguajes de marcas generalizados para documentos. El SGML, introdujo el concepto de separar la estructura lógica de la presentación física. Por lo que, permitía que los documentos fueran independientes de las aplicaciones y las representaciones.**
@@ -80,3 +80,46 @@
     * **Restricciones: Los esquemas pueden imponer restricciones a los elementos y atributos mediante funciones como longitudes mínimas/máximas, enumeraciones, etc.**
     * **Tipos de datos: Los esquemas, admiten tipos de datos incorporados, como cadenas, decimales, etc., y tipos definidos por el usuario.**
     * **Comentarios en XMLSchema: Se pueden añadir comentarios, para describir partes del esquema, utilizando la sintaxis de comentarios XML.**
+# Actividad Cuaderno Clase UD7:
+## SGI (Sistemas de gestión de la información):
+* **Características: Los SGI, están diseñados, para organizar, almacenar, y procesar datos, para así, apoyar los procesos de negocio. Por lo que, las características claves, incluyen:**
+    * **Almacenamiento centralizado: Los SGI, centralizan el almacenamiento de datos, para facilitar, el acceso, y la gestión.**
+    * **Seguridad de los datos: Implementación de medidas, para proteger la integridad, y confidencialidad de los datos.**
+    * **Escalabilidad: Debe gestionar, volúmenes de datos, y cargas de usuarios, cada vez mayores.**
+    * **Integración: Se integra, con otros sistemas, para garantizar, un flujo de datos fluido.**
+* **Tipos: Existen varios tipos de SGI, entre ellos:**
+    * **Sistemas de gestión de bases de datos relacionales (RDBMS): Organizan los datos, en tablas, con relaciones.**
+    * **Sistemas de Gestión Documental (SGD): Gestionan documentos,y facilitan, la colaboración.**
+    * **Sistemas de gestión de contenidos (CMS): Gestionan contenidos digitales, como sitios web, y medios de comunicación.**
+    * **Sistemas de gestión del conocimiento (KMS): Organizan, y recuperan, el conocimiento de la organización.**
+## ERP (Planificación de recursos empresariales):
+* **Características y ventajas: Los sistemas ERP, integran los procesos organizativos, y empresariales. Sus principales características, y ventajas son las siguientes:**
+    * **Integración de procesos: El ERP, consolida varios procesos empresariales, en un sistema unificado.**
+    * **Información en tiempo real: Proporciona, datos en tiempo real, para la toma de decisiones.**
+    * **Eficacia: Mejora la eficiencia operativa, mediante la racionalización de los procesos.**
+    * **Reducción de costes: Reduce los costes operativos, mediante la optimización de procesos.**
+* **Ejemplos de ERP, más conocidos:**
+    * **ERP SAP: Ampliamente utilizado, para gestionar las operaciones empresariales, y las relaciones, con los clientes.**
+    * **Oracle ERP Cloud: Ofrece, un conjunto completo, de aplicaciones integradas.**
+## CRM (Gestión de las relaciones con los clientes):
+* **Características y ventajas: Los sistemas de gestión de las relaciones con los clientes (CRM), se centran, en la gestión de las interacciones, con los clientes. Las características, y ventajas claves, incluyen:**
+    * **Centralización de datos de clientes: Centraliza, la información del cliente, para una mejor comprensión, y compromiso.**
+    * **Automatización de ventas y marketing: Automatiza, los procesos de ventas, y marketing, para una mayor eficiencia.**
+    * **Mejora del servicio al cliente: Mejora, el servicio al cliente, a través de procesos racionalizados.**
+* **Ejemplos de CRM, más conocidos:**
+    * **Salesforce: La plataforma CRM líder, para ventas, servicio y marketing.**
+    * **HubSpot CRM: Ofrece, herramientas de marketing, ventas, y servicio al cliente.**
+## BI (Inteligencia de negocio):
+* **Definición y componentes: Business Intelligence (BI), implica herramientas de análisis de datos, para tomar decisiones empresariales informadas. Los componentes incluyen:**
+    * **Almacenamiento de datos: Almacenamiento de grandes volúmenes de datos estructurados.**
+    * **OLAP (Procesamiento analítico, en línea): Permite, el análisis multidimensional de datos.**
+    * **Minería de datos: Extracción de patrones, y conocimientos, a partir de grandes conjuntos de datos.**
+    * **Cuadros de mando: Representaciones visuales de indicadores clave de rendimiento.**
+    * **ETL (Extracción, transformación y carga):**
+        * **Extraer: Recupera datos de diversas fuentes.**
+        * **Transformación: Procesa, y limpia los datos, para su análisis.**
+        * **Carga: Carga los datos transformados, en un almacén de datos.**
+    * **Minería de datos:**
+        * **Extrae patrones, e información de grandes conjuntos de datos, para identificar tendencias, y relaciones.**
+    * **Cuadro de mando:**
+        * **Una representación visual de los indicadores clave de rendimiento, y las métricas empresariales, para obtener información rápida.**
