@@ -1,3 +1,58 @@
+<<<<<<< HEAD
+# Unidad 1: Introducción a los lenguajes de marcas:
+* ## Qué es un lenguaje de marcas:
+    * **Un lenguaje de marcas, es un conjunto de etiquetas, utilizadas para definir la estructura y el diseño de un documento. Las etiquetas, proporcionan información semántica sobre los contenidos, en lugar de especificar su presentación o diseño.**
+* ## Evolución de los lenguajes de marcas:
+    * **GML: Fue desarrollado originalmente en los años 60, para el direccionamiento e indexación de documentos gubernamentales estadounidenses.**
+    * **SGML: Fue desarrollado en los años 80, como metalenguaje estándar, para definir estructuras de documentos.**
+* ## Características de los lenguajes de marcas:
+    * **Utiliza etiquetas para definir la estructura y la semántica del documento.**
+    * **Separa el contenido de la presentación y el formato.**
+    * **Se da más importancia a la estructura lógica que a la presentación visual.**
+    * **Lectura programable/máquina en lugar de lectura humana.**
+    * **Flexible y ampliable mediante el uso de etiquetas definidas.**
+* ## Características y ejemplos de los siguientes lenguajes de marcas:
+    * **XML:**
+        - **Metalenguaje utilizado para definir otros lenguajes como HTML.**
+        - **Utiliza etiquetas de elementos con sintaxis de inicio `<tag>` y fin `</tag>`.**
+        - **Los atributos proporcionan información adicional sobre los elementos.**
+        - **Debe estar bien formado, con etiquetas de inicio/fin coincidente.**
+    * **HTML:**
+        - **Lenguaje de marcas para páginas web.**
+        - **Numerosas etiquetas predefinidas para elementos comunes de los documentos.**
+        - **Formato menos estricto que XML.**
+        - **Soportado por todos los navegadores web para renderizar páginas.**
+    * **JSON:**
+        - **Formato ligero de intercambio de datos derivado de JavaScript.**
+        - **Utiliza pares nombre/valor y listas ordenadas para almacenar y transmitir datos.**
+        - **Popular como alternativa a XML para estructuras de datos más sencillas.**
+    * **YAML:**
+        - **Formato de serialización de datos amigable para los archivos de configuración.**
+        - **Se inspira en XML, pero utiliza una sintaxis diferente para especificar listas, mapas y otras estructuras.**
+        - **Comúnmente utilizado para archivos de configuración, pero también formato de datos de uso general.**
+    * ## XML: definición y características del metalenguaje:
+    * **XML es un metalenguaje que define reglas para crear otros lenguajes de marcas personalizados. Como metalenguaje, XML permite definir las etiquetas y la estructura del documento específicas de un dominio o aplicación.**
+    * **El prólogo:**
+        - **El prólogo XML proporciona información sobre la codificación de caracteres y la versión XML. Aparece en la parte superior del documento, antes del elemento raíz.**
+    * **Etiquetas:**
+        - **Las etiquetas están delimitadas por `<>`, y proporcionan etiquetas y estructura a los elementos. Todas las etiquetas deben cerrarse correctamente.**
+    * **Atributos:**
+        - **Los atributos proporcionan información adicional sobre los elementos, y adoptan la forma de pares nombre/valor en la etiqueta de inicio, como `<tag attribute="value">.`**
+    * **Ejemplo en XML:**
+    ```xml
+    <?xml version="1.0" encoding="UTF-8"?>
+    <catalogo>
+        <libro ID="01"> 
+            <autor>John Doe</author>
+                <titulo>Guía del desarrollador XML</titulo> 
+                    <genero>Informática</genero>
+                    <precio>40 </precio>
+                <publicacion>31/12/2023</publicacion>
+             <descripcion>Una mirada en profundidad a la creación de aplicaciones con XML.</descripcion>
+        </libro>
+    </catalogo>
+    ```
+=======
 # Actividad Cuaderno Clase UD1:
 ## ¿Qué es un lenguaje de marcas?
 * **Un lenguaje de marcas, es un conjunto de etiquetas de marcas, utilizadas para definir la estructura, y el diseño de un documento. Es decir, que las etiquetas de marcas, proporcionan información semántica, sobre los contenidos, en lugar de especificar su presentación o diseño. Por lo tanto, es un sistema de anotación de un documento, que se distingue sintácticamente del contenido del texto. Los lenguajes de marcas, permiten etiquetar los elementos del documento, para así, identificar elementos especiales como títulos, párrafos, listas, énfasis, etc. Mientras que las etiquetas, proporcionan información semántica, sobre la estructura, y el significado del documento.**
