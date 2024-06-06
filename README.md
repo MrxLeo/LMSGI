@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Unidad 1: Introducción a los lenguajes de marcas:
 * ## Qué es un lenguaje de marcas:
     * **Un lenguaje de marcas, es un conjunto de etiquetas, utilizadas para definir la estructura y el diseño de un documento. Las etiquetas, proporcionan información semántica sobre los contenidos, en lugar de especificar su presentación o diseño.**
