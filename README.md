@@ -178,3 +178,9 @@
         * **Extrae patrones, e información de grandes conjuntos de datos, para identificar tendencias, y relaciones.**
     * **Cuadro de mando:**
         * **Una representación visual de los indicadores clave de rendimiento, y las métricas empresariales, para obtener información rápida.**
+# Actividad Cuaderno Clase UD3:
+* ## Tabla de contenidos/Índice:
+    * 1.- [HTML (Hypertext Markup Language), y su evolución:](#HTML)
+    * 2.- [XHTML, diferencias, ventajas, y desvantajas, con respecto a HTML:](XHTML)
+* ## HTML (Hypertext Markup Language), y su evolución:
+* **W**
