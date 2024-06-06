@@ -178,9 +178,9 @@
     * **Cuadro de mando:**
         * **Una representación visual de los indicadores clave de rendimiento, y las métricas empresariales, para obtener información rápida.**
 # Actividad Cuaderno Clase UD3:
-## Tabla de contenidos/Índice:
-1.- [HTML (Hypertext Markup Language), y su evolución.](#html-)
+## Tabla de contenidos/índice:
+1.- [HTML (Hypertext Markup Language), y su evolución.](#html)
 2.- [XHTML, diferencias, ventajas, y desvantajas, con respecto a HTML.](#xhtml)
 3.- [Estructura de un documento HTML.](#estructura-de-un-documento-html)
   ## Estructura de un documento HTML:
-* **HTML**
+* **HTML:**
