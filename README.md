@@ -178,9 +178,164 @@
     * **Cuadro de mando:**
         * **Una representación visual de los indicadores clave de rendimiento, y las métricas empresariales, para obtener información rápida.**
 # Actividad Cuaderno Clase UD3:
-## Tabla de contenidos/índice:
-1.- [HTML (Hypertext Markup Language), y su evolución.](#html)
-2.- [XHTML, diferencias, ventajas, y desvantajas, con respecto a HTML.](#xhtml)
-3.- [Estructura de un documento HTML.](#estructura-de-un-documento-html)
-  ## Estructura de un documento HTML:
-* **HTML:**
+## HTML, y su evolución:
+* **HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas y aplicaciones web. Fue desarrollado por primera vez por Tim Bernes-Lee en 1991 y desde entonces ha sufrido varias versiones y mejoras.**
+    * **Evolución del HTML:**
+        * **HTML 1.0 (1991): La primera versión, muy básica, con etiquetas limitadas.**
+        * **HTML 2.0 (1995): Añadió formularios y tablas.**
+        * **HTML 3.2 (1997): Introduce soporte para applets, scripts y estilos.**
+        * **HTML 4.01 (1999): Introduce el concepto de Modelo de Objetos del Documento (DOM) y mejora la accesibilidad.**
+        * **XHTML 1.0 (2000): Una versión más estricta de HTML 4.01, basada en XML.**
+        * **HTML5 (2014): Introdujo nuevos elementos semánticos, soporte multimedia y APIs.**
+        **Diferencias, ventajas y desventajas de XHTML con respecto a HTML:**
+* **XHTML (Extensible HyperText Markup Language) es una versión más estricta y limpia de HTML, basada en XML.**
+    * **Diferencias:**
+        * **Reglas sintácticas: XHTML requiere una sintaxis bien formada (por ejemplo, todas las etiquetas deben estar cerradas).**
+        * **Distinción entre mayúsculas y minúsculas: XHTML distingue entre mayúsculas y minúsculas, mientras que HTML no.**
+        * **Declaración del tipo de documento: XHTML requiere una declaración DOCTYPE específica.**
+    * **Ventajas:**
+        * **Coherencia: Impone normas de codificación estrictas.**
+        * **Interoperabilidad: Más fácil de analizar y procesar con herramientas XML.**
+        * **Tratamiento de errores: Los errores se detectan más fácilmente gracias a una sintaxis estricta.**
+    * **Desventajas:**
+        * **Rigurosidad: Requiere una codificación más cuidadosa, lo que puede resultar engorroso.**
+        * **Compatibilidad con versiones anteriores: Los navegadores más antiguos pueden no ser totalmente compatibles con XHTML.**
+    * **Estructura de un documento HTML:**
+        * **Un documento HTML suele seguir la siguiente estructura:**
+    ```html
+    <!DOCTYPE HTML>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Título del documento.</title>
+        <meta name="description" content="Descripción del documento">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="script.js"></script>
+        <title>Lenguajes de marcado web - Elementos de bloque.</title>
+    </head>
+    <body>
+        <h1>Título principal</h1>
+        <p>Párrafo del texto.</p>
+    </body>
+    </html>
+    ```
+    * **Cabecera HTML:**
+        * **La etiqueta `<head>` contiene metadatos y recursos para el documento.**
+    * **Título:**
+        * **La etiqueta `<title>` define el título del documento, que aparece en la pestaña del navegador.**
+    * **Meta:**
+        * **La etiqueta `<meta>` proporciona metadatos como codificación de caracteres, autor y descripción.**
+    ```html
+    <meta charset="UTF-8">
+    <meta name="description" content="Descripción del documento.">
+    <meta name="author" content="Nombre del autor">
+    ```
+    * **Estilo:**
+        * **La etiqueta `<style>` contiene estilos CSS internos.**
+    ```html
+    <style>
+    body {
+        background-color: #f0f0f0;
+    }
+    </style>
+    ```
+    * **Enlace:**
+        * **La etiqueta `<link>` enlaza recursos externos como hojas de estilo.**
+    ```html
+    <link rel="stylesheet" href="estilos.css">
+    ```
+    * **Script:**
+        * **La etiqueta `<script>` incluye o enlaza a archivos JavaScript.**
+    ```html
+    <script src="script.js"></script>
+    ```
+    * **Cuerpo HTML:**
+        * **La sección "cuerpo" contiene el contenido visible del documento.**
+    * **Elementos de bloque:**
+        * **Los elementos de bloque ocupan todo el ancho de su contenedor y comienzan en una nueva línea.**
+        * **Encabezamiento:`<h1>` a `<h6>`.**
+        * **Párrafos: `<p>`.**
+        * **Divisiones: `<div>`.**
+        * **Listas: `<ul>`, `<ol>`, `<li>`.**
+        * **Tablas: `<table>`, `<tr>`, `<td>`.**
+        * **Formularios: `<form>`, `<input>`, `<textarea>`, `<button>`.**
+    ```html
+    <h1>Título principal.</h1>
+    <p>Párrafo del texto.</p>
+    <div>
+        <ul>
+            <li>Elemento 1.</li>
+            <li>Elemento 2.</li>
+        </ul>
+    </div>
+    ```
+    * **Elementos en línea:**
+        * **Los elementos en línea no empiezan en una nueva línea y sólo ocupan el ancho necesario.**
+        * **Formato del texto: `<b>`, `<i>`, `<strong>`, `<em>`.**
+        * **Enlaces: `<a>`.**
+        * **Imágenes: `<img>`.**
+        * **Span: `<span>`.**
+    ```html
+    <a href="https://ejemplo.com">Enlace de ejemplo.</a>
+    <img src="imagen.jpg" alt="Imágen de ejemplo.">
+    <span style="color: red;">Texto en rojo.</span>
+    ```
+    * **Listas, tablas y formularios:**
+        * **Listas:**
+        * **Lista desordenada: `<ul>`, `<li>`.**
+        * **Lista ordenada: `<ol>`, `<li>`.**
+        * **Lista descriptiva: `<dl>`, `<dt>`, `<dd>`.**
+    ```html
+    <ul>
+        <li>Elemento 1.</li>
+        <li>Elemento 2.</li>
+    </ul>
+    ```
+    * **Tablas:**
+        * **Elementos de la tabla: `<table>`, `<tr>`, `<td>`, `<th>`, `<thead>`, `<tbody>`, `<tfoot>`.**
+    ```html
+    <table>
+        <thead>
+            <tr>
+                <th>Cabezera 1.</th>
+                <th>Cabezera 2.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Dato 1.</td>
+                <td>Dato 2.</td>
+            </tr>
+        </tbody>
+    <table>
+    ```
+    * **Formularios:**
+        * **Elementos del formulario: `<form>`, `<input>`, `<textarea>`, `<button>`, `<select>`, `<option>`.**
+    ```html
+    <form action="submit.php" method="post">
+        <label for="name">Nombre.</label>
+        <input type="text" id="name" name="name">
+        <button type="sumbit">Enviar.</button>
+    </form>
+    ```
+    * **Elementos multimedia para HTML5:**
+        * **Audio: `<audio>`.**
+        * **Vídeo: `<video>`.**
+        * **Canvas: `<lienzo>`.**
+        * **SVG: `<svg>`.**
+    ```html
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        Your browser does not support the audio element.
+    </video>
+    ```
+    * **Herramientas de edición y desarrollo web:**
+        * **Editores de texto: Visual Studio Code, Sublime Text, Atom.**
+        * **IDEs: IntelliJ IDEA, WebStorm, Eclipse.**
+        * **Herramientas de desarrollo para navegadores: Chrome DevTools, Firefox Developer Tools.**
+        * **Control de versiones: Git, GitHub, GiLab.**
+        * **Frameworks/Bibliotecas: Boostrap, jQuery, React, Angular.**
